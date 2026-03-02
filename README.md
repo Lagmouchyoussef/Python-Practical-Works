@@ -21,79 +21,75 @@
 ---
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="200" alt="Python Logo"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGl4aWR6Nnl6Z3BtcW1yYnJ4aGR6Y3BtcW1yYnJ4aGR6eGl4aWR6Nnl6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l4FGuhL4U2WyjdkaY/giphy.gif" width="300" alt="Python Programming GIF"/>
 </p>
-
----
-
-```
-██████╗ ███████╗███████╗██╗     ██╗███╗   ██╗███████╗
-██╔══██╗██╔════╝██╔════╝██║     ██║████╗  ██║██╔════╝
-██████╔╝█████╗  █████╗  ██║     ██║██╔██╗ ██║█████╗  
-██╔══██╗██╔══╝  ██╔══╝  ██║     ██║██║╚██╗██║██╔══╝  
-██║  ██║███████╗███████╗███████╗██║██║ ╚████║███████╗
-╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝╚═╝  ╚═══╝╚══════╝
-                                                    
- ██████╗ ███████╗██╗   ██╗
-██╔════╝ ██╔════╝██║   ██║
-██║  ███╗█████╗  ██║   ██║
-██║   ██║██╔══╝  ╚██╗ ██╔╝
-╚██████╔╝███████╗ ╚████╔╝ 
- ╚═════╝ ╚══════╝  ╚═══╝  
-                                                    
-    OOP MASTER COURSE 🎓
-```
 
 ---
 
 ## 📑 Table of Contents
 
-1. [🏠 Home](#1-简介)
-2. [🎯 Objectives](#2-学习目标)
-3. [💻 Environment](#3-环境配置)
-4. [📂 Structure](#4-项目结构)
-5. [📖 Methodology](#5-工作方法论)
-6. [🧠 OOP Theory](#6-面向对象基础)
-7. [📝 Exercises](#7-练习详解)
-8. [▶️ Run Code](#8-运行练习)
-9. [📊 Results](#9-预期输出)
-10. [💡 Reference](#10-关键概念)
-11. [🎬 Videos](#11-视频资源)
-12. [❓ Help](#12-常见问题)
-13. [📚 Resources](#13-附加资源)
+1. [🏠 Home](#home)
+2. [🎯 Objectives](#objectives)
+3. [💻 Environment](#environment)
+4. [📂 Structure](#structure)
+5. [📖 Methodology](#methodology)
+6. [🧠 OOP Theory](#oop-theory)
+7. [📝 Exercises](#exercises)
+8. [▶️ Run Code](#run-code)
+9. [📊 Results](#results)
+10. [💡 Reference](#reference)
+11. [🎬 Videos](#videos)
+12. [❓ Help](#help)
+13. [📚 Resources](#resources)
 
 ---
 
-## 1. 🏠 Home
+## 🏠 Home
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║    Welcome to the Ultimate Python Object-Oriented Programming Master Course! ║
-║                                                                              ║
-║    This comprehensive course will take you from OOP beginner to expert.     ║
-║                                                                              ║
-║    🎓 What you'll master:                                                    ║
-║       ✓ Classes & Objects creation                                          ║
-║       ✓ Encapsulation & Data Protection                                     ║
-║       ✓ Inheritance & Code Reuse                                            ║
-║       ✓ Polymorphism & Operator Overloading                                 ║
-║       ✓ Multiple Inheritance & MRO                                          ║
-║       ✓ Complete Project Architecture                                        ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
-### Course at a Glance
+### Welcome Banner
 
 ```mermaid
 flowchart TB
-    subgraph Course[📚 Complete Course Flow]
+    subgraph Banner[🐍 WELCOME TO PYTHON OOP MASTER COURSE!]
+        direction TB
+        Title["🎓 Master Object-Oriented Programming<br/>from Beginner to Expert"]:::title
+        Learn["✨ What you'll learn:"]:::subtitle
+        L1["✓ Classes & Objects creation"]:::item
+        L2["✓ Encapsulation & Data Protection"]:::item
+        L3["✓ Inheritance & Code Reuse"]:::item
+        L4["✓ Polymorphism & Operator Overloading"]:::item
+        L5["✓ Multiple Inheritance & MRO"]:::item
+        L6["✓ Complete Project Architecture"]:::item
+        
+        Learn --> L1
+        Learn --> L2
+        Learn --> L3
+        Learn --> L4
+        Learn --> L5
+        Learn --> L6
+    end
+    
+    style Banner fill:#1a237e,color:#fff
+    style Title fill:#7c4dff,color:#fff,font-size:20px
+    style Learn fill:#7c4dff,color:#fff,font-size:16px
+    style L1 fill:#00e676,color:#000
+    style L2 fill:#00e676,color:#000
+    style L3 fill:#00e676,color:#000
+    style L4 fill:#00e676,color:#000
+    style L5 fill:#00e676,color:#000
+    style L6 fill:#00e676,color:#000
+```
+
+### Course Flow
+
+```mermaid
+flowchart TB
+    subgraph Course[📚 Course Journey]
         direction LR
         E1[🏦 Exercise 1<br/>Encapsulation] --> E2[➗ Exercise 2<br/>Operators]
         E2 --> E3[🎓 Exercise 3<br/>Inheritance]
         E3 --> E4[🚗 Exercise 4<br/>Multi-Inherit]
-        E4 --> EP[📚 Final Project<br/>Library System]
+        E4 --> EP[📚 Final Project<br/>Library]
     end
     
     style Course fill:#1a237e,color:#fff
@@ -106,13 +102,13 @@ flowchart TB
 
 ---
 
-## 2. 🎯 Objectives
+## 🎯 Objectives
 
-### Your Learning Goals
+### Learning Goals Mind Map
 
 ```mermaid
 mindmap
-  root((🎯 LEARNING GOALS))
+  root((🎯 OBJECTIVES))
     Master Class Design
       Create classes
       Define constructors
@@ -137,9 +133,19 @@ mindmap
 
 ---
 
-## 3. 💻 Environment
+## 💻 Environment
 
 ### System Requirements
+
+```mermaid
+graph LR
+    subgraph Req[🖥️ System Requirements]
+        R1[📋 Component] --> R2[📋 Minimum]
+        R2 --> R3[⚡ Recommended]
+    end
+    
+    style Req fill:#263238,color:#fff
+```
 
 | 🖥️ Component | 📋 Minimum | ⚡ Recommended |
 |--------------|------------|----------------|
@@ -148,58 +154,41 @@ mindmap
 | **Storage** | 1 GB | 5 GB |
 | **OS** | Windows/Mac/Linux | Win 11/Mac/Ubuntu |
 
-### Quick Setup
+---
 
-```bash
-# 🍎 macOS
-brew install python3
+## 📂 Structure
 
-# 🐧 Linux
-sudo apt install python3 python3-pip
+### Project Files Tree
 
-# 🪟 Windows
-# Download from python.org
+```mermaid
+graph TD
+    subgraph Structure[📂 Project Structure]
+        Root[📦 Python-Practical-Works/] --> Readme[📄 README.md]
+        Root --> Ex1[📄 Exercise 1.py]
+        Root --> Ex2[📄 Exercise 2.py]
+        Root --> Ex3[📄 Exercise 3.py]
+        Root --> Ex4[📄 Exercise 4.py]
+        Root --> Final[📄 Exercise .py]
+        
+        Ex1 --> Ex1Cont[🏦 Bank Account]
+        Ex2 --> Ex2Cont[➗ Vector2D]
+        Ex3 --> Ex3Cont[🎓 School System]
+        Ex4 --> Ex4Cont[🚗 Vehicles]
+        Final --> FinalCont[📚 Library]
+    end
+    
+    style Root fill:#1a237e,color:#fff
+    style Readme fill:#4caf50,color:#fff
+    style Ex1 fill:#2196f3,color:#fff
+    style Ex2 fill:#9c27b0,color:#fff
+    style Ex3 fill:#ff9800,color:#fff
+    style Ex4 fill:#e91e63,color:#fff
+    style Final fill:#f44336,color:#fff
 ```
 
 ---
 
-## 4. 📂 Project Structure
-
-```
-📦 Python-Practical-Works/
- │
- ├── 📄 README.md              ⭐ This comprehensive guide
- │
- ├── 📄 Exercise 1.py          🏦 Bank Account System
- │   ├── BankAccount class
- │   ├── Private attributes
- │   └── deposit/withdraw
- │
- ├── 📄 Exercise 2.py          ➗ Vector2D Calculator
- │   ├── Vector2D class
- │   ├── Math operations
- │   └── Dunder methods
- │
- ├── 📄 Exercise 3.py          🎓 School Management
- │   ├── Person (parent)
- │   ├── Student (child)
- │   └── Teacher (child)
- │
- ├── 📄 Exercise 4.py          🚗 Connected Vehicles
- │   ├── Vehicle (root)
- │   ├── ElectricVehicle
- │   ├── ConnectedVehicle
- │   └── ConnectedElectricCar
- │
- └── 📄 Exercise .py           📚 Library System
-     ├── Document
-     ├── Book/Article
-     └── Library management
-```
-
----
-
-## 5. 📖 Methodology
+## 📖 Methodology
 
 ### 6-Step Learning System
 
@@ -221,20 +210,20 @@ flowchart TD
     style Steps fill:#263238,color:#fff
 ```
 
-### Time Table
+### Time Distribution
 
 ```mermaid
-pie title ⏱️ Time Distribution
-    "Theory Reading" : 135
-    "Practice Coding" : 255
-    "Review & Debug" : 60
+pie title ⏱️ Time Distribution (450 min total)
+    "📚 Theory Reading (135 min)" : 135
+    "💻 Practice Coding (255 min)" : 255
+    "📝 Review & Debug (60 min)" : 60
 ```
 
 ---
 
-## 6. 🧠 OOP Theory
+## 🧠 OOP Theory
 
-### The 4 Pillars
+### The 4 Pillars of OOP
 
 ```mermaid
 flowchart TB
@@ -257,79 +246,77 @@ flowchart TB
     
     classDef title fill:#673ab7,color:#fff,font-size:24px
     classDef pillar fill:#009688,color:#fff,font-size:18px,rx:10,ry:10
-    classDef pillar fill:#e91e63,color:#fff,font-size:18px,rx:10,ry:10
-    classDef pillar fill:#3f51b5,color:#fff,font-size:18px,rx:10,ry:10
-    classDef pillar fill:#ff9800,color:#fff,font-size:18px,rx:10,ry:10
 ```
 
 ---
 
-## 7. 📝 Exercises
+## 📝 Exercises
 
 ### Exercise 1: Bank Account 🏦
 
-**Level**: ⭐ Beginner
+**Level**: ⭐ Beginner | **Focus**: Encapsulation
 
-**Focus**: Encapsulation
-
-```python
-class BankAccount:
-    """🏦 Banking system with data protection."""
-    
-    def __init__(self, holder: str, balance: float):
-        self.holder = holder          # 👁️ Public
-        self._bank = "Bank"          # ⚠️ Protected
-        self.__balance = balance     # 🔒 Private!
-    
-    def deposit(self, amount: float):
-        """💰 Deposit money safely."""
-        if amount > 0:
-            self.__balance += amount
-            return f"✅ Deposited: ${amount}"
-    
-    def get_balance(self) -> float:
-        """🔑 Get private balance."""
-        return self.__balance
+```mermaid
+classDiagram
+    class BankAccount {
+        +holder: str
+        -_bank: str
+        --balance: float
+        +__init__(holder, balance)
+        +deposit(amount)
+        +withdraw(amount): bool
+        +get_balance(): float
+    }
 ```
 
 ---
 
 ### Exercise 2: Vector2D ➗
 
-**Level**: ⭐⭐ Intermediate
+**Level**: ⭐⭐ Intermediate | **Focus**: Operator Overloading
 
-**Focus**: Operator Overloading
+```mermaid
+classDiagram
+    class Vector2D {
+        +x: float
+        +y: float
+        +__init__(x, y)
+        +__add__(other)
+        +__sub__(other)
+        +__mul__(scalar)
+        +__eq__(other)
+        +norm()
+    }
+```
 
-```python
-class Vector2D:
-    """➗ 2D vector with math operations."""
+### Operators Reference
+
+```mermaid
+graph LR
+    Op1["__add__"] --> Plus["+"] --> Ex1["v1 + v2"]
+    Op2["__sub__"] --> Minus["-"] --> Ex2["v1 - v2"]
+    Op3["__mul__"] --> Star["*"] --> Ex3["v1 * 3"]
+    Op4["__eq__"] --> Equal["=="] --> Ex4["v1 == v2"]
     
-    def __init__(self, x: float, y: float):
-        self.x = x
-        self.y = y
-    
-    def __add__(self, other):
-        """➕ Addition: v1 + v2"""
-        return Vector2D(self.x + other.x, self.y + other.y)
-    
-    def __mul__(self, scalar: float):
-        """✖️ Multiplication: v * 3"""
-        return Vector2D(self.x * scalar, self.y * scalar)
+    style Op1 fill:#e3f2fd
+    style Op2 fill:#e3f2fd
+    style Op3 fill:#e3f2fd
+    style Op4 fill:#e3f2fd
 ```
 
 ---
 
 ### Exercise 3: School System 🎓
 
-**Level**: ⭐⭐ Intermediate
-
-**Focus**: Inheritance
+**Level**: ⭐⭐ Intermediate | **Focus**: Inheritance
 
 ```mermaid
 classDiagram
     class Person {
-        +name: str
+        +last_name: str
+        +first_name: str
         +age: int
+        +identity()
     }
     
     class Student {
@@ -350,97 +337,151 @@ classDiagram
 
 ### Exercise 4: Vehicles 🚗
 
-**Level**: ⭐⭐⭐ Advanced
-
-**Focus**: Multiple Inheritance
+**Level**: ⭐⭐⭐ Advanced | **Focus**: Multiple Inheritance
 
 ```mermaid
 classDiagram
     class Vehicle {
         +brand: str
-        +speed: int
+        +max_speed: int
     }
     
-    class Electric {
-        +battery: int
+    class ElectricVehicle {
+        +range_km: int
     }
     
-    class Connected {
-        +os: str
+    class ConnectedVehicle {
+        +os_system: str
     }
     
-    class SmartCar {
+    class ConnectedElectricCar {
     }
     
-    Vehicle <|-- Electric
-    Vehicle <|-- Connected
-    Electric <|-- SmartCar
-    Connected <|-- SmartCar
+    Vehicle <|-- ElectricVehicle
+    Vehicle <|-- ConnectedVehicle
+    ElectricVehicle <|-- ConnectedElectricCar
+    ConnectedVehicle <|-- ConnectedElectricCar
+```
+
+### MRO Visualization
+
+```mermaid
+flowchart LR
+    A[ConnectedElectricCar] --> B[ElectricVehicle]
+    B --> C[ConnectedVehicle]
+    C --> D[Vehicle]
+    D --> E[object]
+    
+    style A fill:#ffcdd2
+    style B fill:#ffcdd2
+    style C fill:#ffcdd2
+    style D fill:#ffcdd2
+    style E fill:#ffcdd2
 ```
 
 ---
 
-## 8. ▶️ Run Code
+### Final Project: Library 📚
+
+**Level**: ⭐⭐⭐⭐ Expert | **Focus**: Complete System
+
+```mermaid
+classDiagram
+    class Document {
+        +title: str
+        +author: str
+        +year: int
+    }
+    
+    class Book {
+        +isbn: str
+        +pages: int
+    }
+    
+    class ScientificArticle {
+        +journal: str
+        +doi: str
+    }
+    
+    class Library {
+        +name: str
+        +documents: list
+        +add()
+        +search()
+    }
+    
+    Document <|-- Book
+    Document <|-- ScientificArticle
+    Library --> "*" Document
+```
+
+---
+
+## ▶️ Run Code
 
 ### Quick Commands
 
+```mermaid
+flowchart TD
+    subgraph Commands[💻 How to Run]
+        C1[cd Python-Practical-Works] --> C2[python Exercise1.py]
+    end
+    
+    style Commands fill:#263238,color:#fff
+```
+
 ```bash
-# 🪟 Windows
+# 🪟 Windows / 🍎 macOS / 🐧 Linux
 cd Python-Practical-Works
 python Exercise1.py
-
-# 🍎 macOS / 🐧 Linux
-python3 Exercise1.py
-
-# ▶️ Run All
-python Exercise1.py && python Exercise2.py && python Exercise3.py && python Exercise4.py && python "Exercise .py"
+python Exercise2.py
+python Exercise3.py
+python Exercise4.py
+python "Exercise .py"
 ```
 
 ---
 
-## 9. 📊 Results
+## 📊 Results
 
 ### Expected Outputs
 
 #### 🏦 Exercise 1 Output
-```
-╔══════════════════════════════════════════════════╗
-║     💰 BANK ACCOUNT SYSTEM DEMO                 ║
-╠══════════════════════════════════════════════════╣
-║  Account created: Account of Yasmine            ║
-║  💵 Balance: 5000 MAD                           ║
-║  ➕ Deposit: +2000 MAD  → Balance: 7000        ║
-║  ➖ Withdrawal: -1000 MAD → Balance: 6000       ║
-╚══════════════════════════════════════════════════╝
-```
 
-#### ➗ Exercise 2 Output
-```
-╔══════════════════════════════════════════════════╗
-║       ➗ VECTOR2D CALCULATOR                     ║
-╠══════════════════════════════════════════════════╣
-║  v1 = (3, 4)                                    ║
-║  v2 = (1, 2)                                    ║
-║  ➕ v1 + v2 = (4, 6)                            ║
-║  ✖️ v1 * 3 = (9, 12)                           ║
-║  📐 Length = 5.00                               ║
-╚══════════════════════════════════════════════════╝
+```mermaid
+flowchart TB
+    subgraph Output[💰 BANK ACCOUNT OUTPUT]
+        O1[Account created: Account of Yasmine]:::output
+        O2[Balance: 5000 MAD]:::output
+        O3[Deposit: +2000 MAD]:::output
+        O4[Balance: 7000 MAD]:::output
+        O5[Withdrawal: -1000 MAD]:::output
+        O6[Final Balance: 6000 MAD]:::output
+    end
+    
+    style Output fill:#1b5e20,color:#fff
+    style O1 fill:#4caf50,color:#fff
+    style O2 fill:#4caf50,color:#fff
+    style O3 fill:#4caf50,color:#fff
+    style O4 fill:#4caf50,color:#fff
+    style O5 fill:#4caf50,color:#fff
+    style O6 fill:#4caf50,color:#fff
 ```
 
 ---
 
-## 10. 💡 Reference
+## 💡 Reference
 
-### Quick Reference Cards
+### Quick Reference Mind Map
 
 ```mermaid
 mindmap
   root((💡 KEY CONCEPTS))
-    Naming
+    Naming Conventions
       public name
       protected _name
       private __name
-    Dunder
+    Dunder Methods
       __init__
       __str__
       __add__
@@ -452,9 +493,9 @@ mindmap
 
 ---
 
-## 11. 🎬 Videos
+## 🎬 Videos
 
-### Learning Resources
+### Tutorial Videos
 
 ```mermaid
 graph TD
@@ -463,6 +504,11 @@ graph TD
     V --> V3[Tech With Tim]
     V --> V4[ArjanCodes]
     
+    V1 --> D1["Python OOP (45 min)"]
+    V2 --> D2["Classes (20 min)"]
+    V3 --> D3["Inheritance (25 min)"]
+    V4 --> D4["MRO (30 min)"]
+    
     style V fill:#e53935,color:#fff
     style V1 fill:#1e88e5,color:#fff
     style V2 fill:#43a047,color:#fff
@@ -470,30 +516,30 @@ graph TD
     style V4 fill:#8e24aa,color:#fff
 ```
 
-| 📺 Topic | 🔗 Link | ⏱️ Duration |
-|----------|---------|-------------|
-| OOP Basics | [Watch](https://www.youtube.com/watch?v=apACNr7DC_s) | 45 min |
-| Classes | [Watch](https://www.youtube.com/watch?v=8ok8hJ7D2sE) | 20 min |
-| Inheritance | [Watch](https://www.youtube.com/watch?v=RSl87lqOXDE) | 25 min |
-| MRO | [Watch](https://www.youtube.com/watch?v=0sD3M7EuzE4) | 30 min |
+| 📺 Topic | 🔗 Link |
+|----------|---------|
+| OOP Basics | [Watch](https://www.youtube.com/watch?v=apACNr7DC_s) |
+| Classes | [Watch](https://www.youtube.com/watch?v=8ok8hJ7D2sE) |
+| Inheritance | [Watch](https://www.youtube.com/watch?v=RSl87lqOXDE) |
+| MRO | [Watch](https://www.youtube.com/watch?v=0sD3M7EuzE4) |
 
 ---
 
-## 12. ❓ Help
+## ❓ Help
 
-### Common Questions
+### FAQ Flowchart
 
 ```mermaid
 flowchart TD
-    Q[❓ Questions] --> Q1{_ vs __?}
-    Q --> Q2{When inherit?}
-    Q --> Q3{What is MRO?}
-    Q --> Q4{Overload ops?}
+    Q[❓ FAQ] --> Q1{"_ vs __ ?"}
+    Q --> Q2{"When inherit?"}
+    Q --> Q3{"What is MRO?"}
+    Q --> Q4{"Overload ops?"}
     
-    Q1 --> A1[__ triggers<br/>name mangling]
-    Q2 --> A2[Use for "is-a"<br/>relationships]
-    Q3 --> A3[Method lookup<br/>order]
-    Q4 --> A4[Yes! Use<br/>dunder methods]
+    Q1 --> A1["__ triggers<br/>name mangling"]
+    Q2 --> A2["Use for 'is-a'<br/>relationships"]
+    Q3 --> A3["Method lookup<br/>order"]
+    Q4 --> A4["Yes! Use<br/>dunder methods"]
     
     style Q fill:#ff9800,color:#fff
     style Q1 fill:#ffc107
@@ -504,9 +550,9 @@ flowchart TD
 
 ---
 
-## 13. 📚 Resources
+## 📚 Resources
 
-### Further Reading
+### Further Learning Resources
 
 ```mermaid
 mindmap
@@ -536,10 +582,6 @@ mindmap
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   
   <img src="https://komarev.com/ghpvc/?username=Lagmouchyoussef&repo=Python-Practical-Works&style=flat-square&color=green" alt="views"/>
-  
-  <a href="#">
-    <img src="https://img.shields.io/badge/⬆️-Back_to_Top-red?style=for-the-badge" alt="Back to Top">
-  </a>
   
 </p>
 
