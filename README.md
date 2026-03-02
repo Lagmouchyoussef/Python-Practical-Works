@@ -1,359 +1,613 @@
-# 🐍 Python Object-Oriented Programming (OOP) Tutorial
+# 🐍 Python Object-Oriented Programming: Complete Mastery Course
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="200" alt="Python Logo"/>
-  <br><br>
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python" alt="Python Version"/>
-  <img src="https://img.shields.io/badge/OOP-Tutorial-green?style=for-the-badge" alt="OOP Tutorial"/>
-  <img src="https://img.shields.io/badge/Level-Beginner-yellow?style=for-the-badge" alt="Level"/>
-  <img src="https://img.shields.io/badge/Exercises-5-red?style=for-the-badge" alt="Exercises"/>
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Level-Intermediate-FF6B6B?style=for-the-badge" alt="Level">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Duration-8h-yellow?style=for-the-badge" alt="Duration">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Exercises-5-green?style=for-the-badge&logo=check" alt="Exercises">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License">
+  </a>
 </p>
-
-> ## 🎯 Complete Guide to Object-Oriented Programming in Python
-> *Designed specifically for French-speaking beginners transitioning to Python*
 
 ---
 
-```
-░█▀▀░█▀█░█▀▄░█▀▀░█▀▄░█▀█░█▀▄░█▀█░█▀▄░█▀▀
-░█▀▀░█▀█░█▀▄░█▀▀░█▀▄░█▀█░█▀▄░█▀█░█▀▄░█▀▀
-░▀▀▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀▀▀
-         OOP TUTORIAL
-░█▀▀░█▀█░█▀▄░█▀▀░█▀▄░█▀█░█▀▄░█▀█░█▀▄░█▀▀
-░█▀▀░█▀█░█▀▄░█▀▀░█▀▄░█▀█░█▀▄░█▀█░█▀▄░█▀▀
-░▀▀▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀▀▀
-```
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="180" alt="Python OOP">
+</p>
 
 ---
 
 ## 📋 Table of Contents
 
-1. [🚀 Quick Start](#-quick-start)
-2. [📚 Course Overview](#-course-overview)
-3. [💻 Prerequisites](#-prerequisites)
-4. [🏗️ Project Structure](#-project-structure)
-5. [🧠 OOP Fundamentals](#-oop-fundamentals)
-6. [📝 Exercise Details](#-exercise-details)
-7. [▶️ Running Exercises](#-running-exercises)
-8. [📤 Expected Outputs](#-expected-outputs)
-9. [🔧 Key Concepts](#-key-concepts)
-10. [🎥 Video Resources](#-video-resources)
-11. [❓ FAQ](#-faq)
+1. [📖 Introduction](#1-简介)
+2. [🎯 Objectives](#2-学习目标)
+3. [📦 Prerequisites](#3-环境配置)
+4. [🏗️ Project Structure](#4-项目结构)
+5. [💡 Working Methodology](#5-工作方法论)
+6. [🧠 OOP Fundamentals](#6-面向对象基础)
+7. [📝 Exercises Detail](#7-练习详解)
+8. [🚀 Running Exercises](#8-运行练习)
+9. [📤 Expected Outputs](#9-预期输出)
+10. [🔑 Key Concepts](#10-关键概念)
+11. [🎥 Video Resources](#11-视频资源)
+12. [❓ FAQ](#12-常见问题)
+13. [📚 Additional Resources](#13-附加资源)
 
 ---
 
-## 🚀 Quick Start
+## 1. 📖 Introduction
 
-```bash
-# Clone or download this repository
-# Then run any exercise:
+### Course Overview
 
-python Exercise1.py      # Bank Account (Encapsulation)
-python Exercise2.py      # Vector2D (Operators)
-python Exercise3.py      # School System (Inheritance)
-python Exercise4.py     # Vehicles (Multiple Inheritance)
-python "Exercise .py"   # Library System (Project)
-```
+This comprehensive course provides a **complete mastery of Object-Oriented Programming (OOP)** using Python. Through hands-on exercises, you will learn fundamental and advanced OOP concepts that are essential for building robust, scalable, and maintainable applications.
 
-> ⏱️ **Estimated Completion Time**: 2-3 hours for beginners
+> **Target Audience**: Developers looking to strengthen their Python OOP skills
+> 
+> **Prerequisites**: Basic Python knowledge
+> 
+> **Learning Format**: Self-paced with hands-on exercises
 
 ---
 
-## 📚 Course Overview
+## 2. 🎯 Objectives
+
+### Learning Outcomes
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                        YOUR LEARNING JOURNEY                                │
+│                           COURSE OBJECTIVES                                 │
 ├─────────────────────────────────────────────────────────────────────────────┤
 │                                                                             │
-│  ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐   ┌──────┐ │
-│  │ EXERCISE │    │ EXERCISE │    │ EXERCISE │    │ EXERCISE │   │ FINAL│ │
-│  │    1     │ ➜  │    2     │ ➜  │    3     │ ➜  │    4     │ ➜ │PROJCT│ │
-│  └────┬─────┘    └────┬─────┘    └────┬─────┘    └────┬─────┘   └──┬───┘ │
-│       │               │               │               │          │       │
-│       ▼               ▼               ▼               ▼          ▼       │
-│  ┌─────────┐     ┌─────────┐     ┌─────────┐     ┌────────┐  ┌───────┐ │
-│  │🏦 Bank  │     │➗Vector │     │🎓 School│     │🚗Vehicle│  │📚 Lib │ │
-│  │Account  │     │   2D   │     │ System  │     │sConnect.│  │rary  │ │
-│  └─────────┘     └─────────┘     └─────────┘     └────────┘  └───────┘ │
-│                                                                             │
-│  Encapsulation  Polymorphism  Inheritance     Multiple     All OOP   │
-│                                   (Single)   Inheritance   Concepts   │
+│  ✅ Master class design and object creation                                │
+│  ✅ Understand encapsulation and data protection                            │
+│  ✅ Implement inheritance and code reuse                                    │
+│  ✅ Apply polymorphism through operator overloading                         │
+│  ✅ Handle complex inheritance hierarchies                                  │
+│  ✅ Build complete OOP-based projects                                      │
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### What You'll Learn:
+### Skills You Will Gain
 
-| Exercise | Topic | Key Concepts |
-|----------|-------|--------------|
-| 1 | Bank Account | Encapsulation, Private/Public attributes, Getters |
-| 2 | Vector2D | Dunder methods, Operator overloading |
-| 3 | School System | Inheritance, super(), isinstance() |
-| 4 | Vehicles | Multiple inheritance, MRO, **kwargs |
-| Final | Library | Complete OOP project |
+| Skill | Description | Exercise |
+|-------|-------------|----------|
+| **Encapsulation** | Data protection and access control | Exercise 1 |
+| **Operator Overloading** | Custom behavior for operators | Exercise 2 |
+| **Single Inheritance** | Parent-child class relationships | Exercise 3 |
+| **Multiple Inheritance** | Complex class hierarchies | Exercise 4 |
+| **Project Architecture** | Full system design | Final Project |
 
 ---
 
-## 💻 Prerequisites
+## 3. 📦 Prerequisites
 
-### Required Tools:
+### System Requirements
 
+| Requirement | Minimum | Recommended |
+|-------------|---------|-------------|
+| **Python** | 3.8 | 3.11+ |
+| **RAM** | 4 GB | 8 GB |
+| **Disk** | 1 GB | 5 GB |
+| **OS** | Windows/Mac/Linux | Windows 11 / macOS / Ubuntu 22.04 |
+
+### Installation Steps
+
+#### Windows
+
+```powershell
+# Step 1: Download Python
+Visit: https://www.python.org/downloads/
+
+# Step 2: Run Installer
+# ⚠️ IMPORTANT: Check "Add Python to PATH"
+
+# Step 3: Verify Installation
+python --version
+# Expected: Python 3.11.x
 ```
-┌────────────────────────────────────────────────────────────┐
-│                    INSTALLATION CHECKLIST                   │
-├────────────────────────────────────────────────────────────┤
-│                                                            │
-│  ☐ Python 3.8 or higher                                   │
-│     ├── Windows: python.org/downloads                      │
-│     ├── Mac: brew install python3                          │
-│     └── Linux: sudo apt install python3                   │
-│                                                            │
-│  ☐ Text Editor (VS Code recommended)                      │
-│     └── Download: code.visualstudio.com                    │
-│                                                            │
-│  ☐ Terminal/Command Prompt                                │
-│                                                            │
-└────────────────────────────────────────────────────────────┘
-```
 
-### Verify Installation:
+#### macOS
 
 ```bash
-# Check Python version
-python --version    # Should show Python 3.8+
-
-# Check pip is installed
-pip --version
+# Using Homebrew (Recommended)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install python3
+python3 --version
 ```
+
+#### Linux (Ubuntu/Debian)
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+python3 --version
+```
+
+### Recommended IDE Setup
+
+<p align="center">
+  <img src="https://img.shields.io/badge/VS%20Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+  <img src="https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm">
+</p>
+
+**VS Code Extensions:**
+- Python (Microsoft)
+- Pylance
+- Python Indent
+- autoDocstring
 
 ---
 
-## 🏗️ Project Structure
+## 4. 🏗️ Project Structure
 
 ```
 Python-Practical-Works/
 │
-├── 📄 README.md              # ⭐ You are here! (Comprehensive guide)
+├── 📄 README.md                    # This comprehensive guide
 │
-├── 📄 Exercise 1.py         # 🏦 Bank Account - Encapsulation
+├── 📄 Exercise 1.py               # Bank Account System
 │   ├── BankAccount class
-│   ├── deposit() / withdraw() methods
-│   └── Private attributes (__balance)
+│   ├── Private attributes (__balance)
+│   └── deposit/withdraw methods
 │
-├── 📄 Exercise 2.py         # ➗ Vector2D - Operator Overloading
+├── 📄 Exercise 2.py               # Vector2D Calculator
 │   ├── Vector2D class
-│   ├── __add__, __sub__, __mul__, __eq__
-│   └── norm() / __len__ methods
+│   ├── Mathematical operators
+│   └── Dunder methods
 │
-├── 📄 Exercise 3.py         # 🎓 School System - Inheritance
-│   ├── Person (parent)
-│   ├── Student (child)
-│   └── Teacher (child)
+├── 📄 Exercise 3.py               # School Management
+│   ├── Person (Base class)
+│   ├── Student (Inherited)
+│   └── Teacher (Inherited)
 │
-├── 📄 Exercise 4.py         # 🚗 Vehicles - Multiple Inheritance
-│   ├── Vehicle (root)
+├── 📄 Exercise 4.py               # Connected Vehicles
+│   ├── Vehicle (Root)
 │   ├── ElectricVehicle
 │   ├── ConnectedVehicle
 │   └── ConnectedElectricCar
 │
-└── 📄 Exercise .py          # 📚 Library - Complete Project
-    ├── Document (base class)
-    ├── Book / ScientificArticle
-    └── Library management system
+└── 📄 Exercise .py                # Library Management System
+    ├── Document (Abstract)
+    ├── Book
+    ├── ScientificArticle
+    └── Library
 ```
 
 ---
 
-## 🧠 OOP Fundamentals
+## 5. 💡 Working Methodology
 
-### The Four Pillars:
+### Recommended Learning Path
 
 ```
-                    ┌──────────────────┐
-                    │       OOP        │
-                    └────────┬─────────┘
-                             │
-        ┌────────────────────┼────────────────────┐
-        │                    │                    │
-        ▼                    ▼                    ▼
-┌───────────────┐    ┌───────────────┐    ┌───────────────┐
-│   ENCAPSU-    │    │   INHERI-    │    │   POLYMOR-    │
-│   LATION      │    │   TANCE      │    │   PHISM       │
-│   Security    │    │   Reuse      │    │   Flexibility │
-└───────┬───────┘    └───────┬───────┘    └───────┬───────┘
-        │                    │                    │
-        │                    └────────┬────────────┘
-        │                             │
-        ▼                             ▼
-┌───────────────┐            ┌───────────────┐
-│   ABSTRAC-    │            │    METHODS    │
-│   TION        │            │   Behavior    │
-│  Simplicity   │            └───────────────┘
-└───────────────┘
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                        6-STEP LEARNING METHODOLOGY                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ┌─────────────┐                                                            │
+│  │   STEP 1   │  📖 READ THE CONCEPT                                       │
+│  │  (15 min)  │  Understand theory before coding                           │
+│  └──────┬──────┘                                                            │
+│         │                                                                    │
+│         ▼                                                                    │
+│  ┌─────────────┐                                                            │
+│  │   STEP 2   │  👀 ANALYZE THE CODE                                       │
+│  │  (10 min)  │  Study provided examples                                   │
+│  └──────┬──────┘                                                            │
+│         │                                                                    │
+│         ▼                                                                    │
+│  ┌─────────────┐                                                            │
+│  │   STEP 3   │  ⌨️  RUN THE EXERCISE                                      │
+│  │  (5 min)   │  Execute and observe output                               │
+│  └──────┬──────┘                                                            │
+│         │                                                                    │
+│         ▼                                                                    │
+│  ┌─────────────┐                                                            │
+│  │   STEP 4   │  🔧 EXPERIMENT                                              │
+│  │  (20 min)  │  Modify and test variations                                │
+│  └──────┬──────┘                                                            │
+│         │                                                                    │
+│         ▼                                                                    │
+│  ┌─────────────┐                                                            │
+│  │   STEP 5   │  💻 SOLVE INDEPENDENTLY                                    │
+│  │  (30 min)  │  Try without looking at solution                           │
+│  └──────┬──────┘                                                            │
+│         │                                                                    │
+│         ▼                                                                    │
+│  ┌─────────────┐                                                            │
+│  │   STEP 6   │  📝 REVIEW AND REFLECT                                     │
+│  │  (10 min)  │  Compare with solution, note differences                   │
+│  └─────────────┘                                                            │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 1. Encapsulation (Exercise 1)
+### Best Practices
 
-> *"Protect your data like you protect your phone!"*
+#### ✅ Do's
 
 ```python
-class BankAccount:
-    def __init__(self, holder, balance):
-        self.holder = holder        # 📢 Public - everyone sees
-        self._bank = "Bank"        # 🔒 Protected - be careful
-        self.__balance = balance    # 🔐 Private - hidden!
-```
+# ✅ Use meaningful class names
+class BankAccount:        # Good: Describes the object
+class BA:                # Bad: Too abbreviated
 
-**Access Levels:**
-```
-┌────────────────────────────────────────────────┐
-│  self.name    →  PUBLIC    👁️  See anything   │
-│  self._name   →  PROTECTED ⚠️  Use carefully │
-│  self.__name  →  PRIVATE   🚫  Hidden!       │
-└────────────────────────────────────────────────┘
-```
+# ✅ Use descriptive variable names
+account_balance = 1000   # Good: Clear purpose
+x = 1000                 # Bad: Unclear
 
-### 2. Inheritance (Exercise 3)
-
-> *"Like traits: you inherit your parents' features!"*
-
-```python
-class Person:           # 👨‍👩‍👧 Parent/Base Class
-    name = "Unknown"
-
-class Student(Person):  # 👨‍🎓 Child Class
-    major = "Science"  # + Inherits 'name' from Person
-```
-
-### 3. Polymorphism (Exercise 2)
-
-> *"Same action, different results!"*
-
-```python
-len("hello")    # → 5  (characters)
-len([1,2,3])   # → 3  (items)
-len(v1)         # → 5  (vector length)
-```
-
-### 4. Abstraction (All Exercises)
-
-> *"Simple interface, complex inside!"*
-
-```python
-# You just call this:
-account.deposit(1000)
-
-# But behind the scenes... 💭
-# validation, logging, security checks happen automatically!
-```
-
----
-
-## 📝 Exercise Details
-
-### 🏦 Exercise 1: Bank Account
-
-**File:** `Exercise 1.py`
-
-**Learn:**
-- Creating classes and objects
-- Constructor `__init__`
-- Private attributes (`__balance`)
-- Getter methods (`get_balance()`)
-- Name mangling in Python
-
-**Code Preview:**
-```python
-class BankAccount:
-    def __init__(self, holder, initial_balance):
-        self.holder = holder 
-        self.__balance = initial_balance  # Private!
+# ✅ Add docstrings to classes and methods
+class Vector2D:
+    """Represents a 2D vector with x and y coordinates."""
     
-    def deposit(self, amount):
+    def add(self, other):
+        """Add two vectors together and return new Vector2D."""
+        pass
+
+# ✅ Use proper indentation (4 spaces)
+class Example:
+    def method(self):
+        print("Indented properly")
+```
+
+#### ❌ Don'ts
+
+```python
+# ❌ Avoid: Using single letters except for loops
+for i in range(10):      # OK for simple loops
+for x in coordinates:    # Better: descriptive
+
+# ❌ Avoid: Hardcoding values
+if age > 18:             # OK
+MIN_AGE = 18             # Better: Named constant
+if age > MIN_AGE:
+
+# ❌ Avoid: Complex one-liners
+result = [x**2 for x in range(10) if x % 2 == 0]  # Hard to read
+
+# Better: Break into multiple lines
+squares = []
+for x in range(10):
+    if x % 2 == 0:
+        squares.append(x**2)
+```
+
+### Time Management
+
+| Exercise | Theory | Practice | Total |
+|----------|--------|----------|-------|
+| Exercise 1 | 15 min | 30 min | 45 min |
+| Exercise 2 | 20 min | 40 min | 60 min |
+| Exercise 3 | 25 min | 45 min | 70 min |
+| Exercise 4 | 30 min | 50 min | 80 min |
+| Final Project | 45 min | 90 min | 135 min |
+| **Total** | **135 min** | **255 min** | **6.5 hours** |
+
+---
+
+## 6. 🧠 OOP Fundamentals
+
+### The Four Pillars of OOP
+
+<p align="center">
+  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2YwZjBmMCIvPjx0ZXh0IHg9IjUwJSIgeT0iMTAlIiBmb250LXNpemU9IjQwIiBmaWxsPSIjMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB3aWR0aD0iMTAwJSI+QUJDREVGPC90ZXh0Pjwvc3ZnPg==" alt="OOP Concepts" width="800"/>
+</p>
+
+### 6.1 Encapsulation
+
+> **Definition**: Bundling data and methods that work on that data within one unit
+
+```python
+class BankAccount:
+    """Encapsulates banking operations and data protection."""
+    
+    def __init__(self, holder: str, initial_balance: float):
+        # Public attribute
+        self.holder = holder
+        
+        # Protected attribute (convention)
+        self._bank_name = "Default Bank"
+        
+        # Private attribute (name mangling)
+        self.__balance = initial_balance
+    
+    def deposit(self, amount: float) -> None:
+        """Deposit money into account."""
         if amount > 0:
             self.__balance += amount
-            print(f"Deposited {amount} MAD")
+            print(f"✅ Deposited: ${amount}")
+    
+    def withdraw(self, amount: float) -> bool:
+        """Withdraw money if sufficient funds exist."""
+        if amount <= self.__balance:
+            self.__balance -= amount
+            print(f"✅ Withdrawn: ${amount}")
+            return True
+        print(f"❌ Insufficient funds")
+        return False
+    
+    def get_balance(self) -> float:
+        """Getter method to access private data."""
+        return self.__balance
 ```
 
-**UML Diagram:**
+### 6.2 Inheritance
+
+> **Definition**: Creating new classes from existing ones
+
+```python
+# Base Class (Parent)
+class Person:
+    def __init__(self, name: str, age: int):
+        self.name = name
+        self.age = age
+    
+    def introduce(self) -> str:
+        return f"I am {self.name}"
+
+# Derived Class (Child)
+class Student(Person):
+    def __init__(self, name: str, age: int, major: str):
+        super().__init__(name, age)  # Call parent's __init__
+        self.major = major
+    
+    def study(self) -> str:
+        return f"{self.name} studies {self.major}"
+```
+
+### 6.3 Polymorphism
+
+> **Definition**: Same interface, different implementations
+
+```python
+class Cat:
+    def speak(self):
+        return "Meow!"
+
+class Dog:
+    def speak(self):
+        return "Woof!"
+
+# Same method, different behavior
+for animal in [Cat(), Dog()]:
+    print(animal.speak())  # Different outputs!
+```
+
+### 6.4 Abstraction
+
+> **Definition**: Hiding complex implementation details
+
+```python
+from abc import ABC, abstractmethod
+
+class Shape(ABC):
+    @abstractmethod
+    def area(self):
+        """Subclasses must implement this."""
+        pass
+
+class Circle(Shape):
+    def __init__(self, radius):
+        self.radius = radius
+    
+    def area(self):
+        return 3.14 * self.radius ** 2
+```
+
+---
+
+## 7. 📝 Exercises Detail
+
+### Exercise 1: Bank Account System 🏦
+
+**File**: `Exercise 1.py`
+
+#### Learning Objectives
+
+| Objective | Description |
+|-----------|-------------|
+| Create a class with constructor | Use `__init__` to initialize objects |
+| Implement data protection | Apply encapsulation with private attributes |
+| Build getter methods | Return private data safely |
+| Handle errors | Validate input in methods |
+
+#### Code Analysis
+
+```python
+class BankAccount:
+    """
+    Represents a bank account with basic operations.
+    
+    Attributes:
+        holder (str): Account holder's name
+        _bank (str): Bank name (protected)
+        __balance (float): Account balance (private)
+    """
+    
+    def __init__(self, holder: str, initial_balance: float):
+        """Initialize account with holder name and starting balance."""
+        self.holder = holder
+        self._bank = "Attijariwafa Bank"
+        self.__balance = initial_balance
+    
+    def deposit(self, amount: float) -> None:
+        """
+        Deposit money into the account.
+        
+        Args:
+            amount: Positive amount to deposit
+            
+        Returns:
+            None
+        """
+        if amount > 0:
+            self.__balance += amount
+            print(f"✅ Deposit successful: ${amount}")
+        else:
+            print("❌ Invalid amount")
+    
+    def withdraw(self, amount: float) -> bool:
+        """Withdraw money if sufficient balance exists."""
+        if amount <= 0:
+            print("❌ Amount must be positive")
+            return False
+        elif amount <= self.__balance:
+            self.__balance -= amount
+            print(f"✅ Withdrawal successful: ${amount}")
+            return True
+        else:
+            print(f"❌ Insufficient funds")
+            return False
+    
+    def get_balance(self) -> float:
+        """Return current balance."""
+        return self.__balance
+    
+    def __str__(self) -> str:
+        """String representation of account."""
+        return f"Account: {self.holder} | Balance: ${self.__balance}"
+```
+
+#### UML Diagram
+
 ```mermaid
 classDiagram
     class BankAccount {
         +holder: str
         -_bank: str
-        --balance: int
+        --balance: float
+        +__init__(holder, initial_balance)
         +deposit(amount)
-        +withdraw(amount)
-        +get_balance()
+        +withdraw(amount): bool
+        +get_balance(): float
+        +__str__(): str
     }
 ```
 
 ---
 
-### ➗ Exercise 2: Vector2D
+### Exercise 2: Vector2D Calculator ➗
 
-**File:** `Exercise 2.py`
+**File**: `Exercise 2.py`
 
-**Learn:**
-- Dunder (double underscore) methods
-- Operator overloading
-- `__str__`, `__repr__`
-- Mathematical operations
+#### Learning Objectives
 
-**Code Preview:**
+| Objective | Description |
+|-----------|-------------|
+| Operator overloading | Customize operator behavior |
+| Dunder methods | Implement special Python methods |
+| Mathematical operations | Vector arithmetic |
+
+#### Code Analysis
+
 ```python
+import math
+
 class Vector2D:
-    def __init__(self, x=0, y=0):
+    """Represents a 2-dimensional vector."""
+    
+    def __init__(self, x: float = 0, y: float = 0):
         self.x = x
         self.y = y
     
-    def __add__(self, other):
+    # String representations
+    def __str__(self):
+        """Human-readable string."""
+        return f"({self.x}, {self.y})"
+    
+    def __repr__(self):
+        """Developer representation."""
+        return f"Vector2D({self.x}, {self.y})"
+    
+    # Arithmetic operators
+    def __add__(self, other: 'Vector2D') -> 'Vector2D':
+        """Vector addition: v1 + v2"""
         return Vector2D(self.x + other.x, self.y + other.y)
     
-    def __str__(self):
-        return f"({self.x}, {self.y})"
+    def __sub__(self, other: 'Vector2D') -> 'Vector2D':
+        """Vector subtraction: v1 - v2"""
+        return Vector2D(self.x - other.x, self.y - other.y)
+    
+    def __mul__(self, scalar: float) -> 'Vector2D':
+        """Scalar multiplication: v * 3"""
+        return Vector2D(self.x * scalar, self.y * scalar)
+    
+    def __rmul__(self, scalar: float) -> 'Vector2D':
+        """Right multiplication: 3 * v"""
+        return self.__mul__(scalar)
+    
+    def __eq__(self, other: 'Vector2D') -> bool:
+        """Equality check: v1 == v2"""
+        return self.x == other.x and self.y == other.y
+    
+    def norm(self) -> float:
+        """Calculate vector magnitude."""
+        return math.sqrt(self.x**2 + self.y**2)
+    
+    def __len__(self) -> int:
+        """Return norm as integer."""
+        return round(self.norm())
 ```
 
-**Operators Table:**
-| Method | Operator | Example |
-|--------|----------|---------|
-| `__add__` | `+` | `v1 + v2` |
-| `__sub__` | `-` | `v1 - v2` |
-| `__mul__` | `*` | `v1 * 3` |
-| `__eq__` | `==` | `v1 == v2` |
-| `__len__` | `len()` | `len(v1)` |
+#### Operators Reference
+
+| Method | Operator | Usage | Result |
+|--------|----------|-------|--------|
+| `__add__` | `+` | `v1 + v2` | New Vector2D |
+| `__sub__` | `-` | `v1 - v2` | New Vector2D |
+| `__mul__` | `*` | `v1 * 3` | New Vector2D |
+| `__rmul__` | `*` | `3 * v1` | New Vector2D |
+| `__eq__` | `==` | `v1 == v2` | Boolean |
+| `__len__` | `len()` | `len(v1)` | Integer |
 
 ---
 
-### 🎓 Exercise 3: School System
+### Exercise 3: School Management System 🎓
 
-**File:** `Exercise 3.py`
+**File**: `Exercise 3.py`
 
-**Learn:**
-- Single inheritance
-- `super()` function
-- Method overriding
-- `isinstance()` function
+#### Learning Objectives
 
-**Inheritance Hierarchy:**
+| Objective | Description |
+|-----------|-------------|
+| Single inheritance | Parent-child class relationships |
+| Method overriding | Customize inherited behavior |
+| Type checking | Use `isinstance()` |
+
+#### Class Hierarchy
+
 ```mermaid
 classDiagram
     class Person {
         +last_name: str
         +first_name: str
         +age: int
+        +__init__(last_name, first_name, age)
         +identity()
+        +__str__()
     }
     
     class Student {
         +major: str
+        +__init__(last_name, first_name, age, major)
         +study()
+        +__str__()
     }
     
     class Teacher {
         +subject: str
+        +__init__(last_name, first_name, age, subject)
         +teach()
+        +__str__()
     }
     
     Person <|-- Student
@@ -362,33 +616,44 @@ classDiagram
 
 ---
 
-### 🚗 Exercise 4: Connected Vehicles
+### Exercise 4: Connected Vehicles 🚗
 
-**File:** `Exercise 4.py`
+**File**: `Exercise 4.py`
 
-**Learn:**
-- Multiple inheritance
-- Method Resolution Order (MRO)
-- `**kwargs` usage
-- Diamond problem
+#### Learning Objectives
 
-**Complex Inheritance:**
+| Objective | Description |
+|-----------|-------------|
+| Multiple inheritance | Inherit from multiple parents |
+| MRO (Method Resolution Order) | Understand method lookup |
+| **kwargs | Flexible parameter passing |
+
+#### Multiple Inheritance Diagram
+
 ```mermaid
 classDiagram
     class Vehicle {
         +brand: str
         +max_speed: int
+        +__init__(brand, max_speed, **kwargs)
+        +description()
     }
     
     class ElectricVehicle {
         +range_km: int
+        +__init__(brand, max_speed, range_km, **kwargs)
+        +description()
     }
     
     class ConnectedVehicle {
         +os_system: str
+        +__init__(brand, max_speed, os_system, **kwargs)
+        +description()
     }
     
     class ConnectedElectricCar {
+        +__init__(brand, max_speed, range_km, os_system)
+        +description()
     }
     
     Vehicle <|-- ElectricVehicle
@@ -397,61 +662,65 @@ classDiagram
     ConnectedVehicle <|-- ConnectedElectricCar
 ```
 
-**MRO Visualization:**
-```
-ConnectedElectricCar
-       │
-       ├──→ ElectricVehicle ──→ ConnectedVehicle ──→ Vehicle ──→ object
-       │
-       └──→ ConnectedVehicle ──→ Vehicle ──→ object
+#### MRO Visualization
+
+```python
+# Method Resolution Order
+ConnectedElectricCar.__mro__
+
+# Output:
+# (ConnectedElectricCar,
+#  ElectricVehicle,
+#  ConnectedVehicle,
+#  Vehicle,
+#  object)
 ```
 
 ---
 
-### 📚 Final Project: Library System
+### Final Project: Library Management System 📚
 
-**File:** `Exercise .py`
+**File**: `Exercise .py`
 
-**Concepts Used:**
-- Class hierarchy
-- Multiple inheritance
-- Collection operators
-- Type checking
-- Custom exceptions
+#### Features
+
+- Document management (Books, Articles)
+- Library catalog operations
+- Search functionality
+- ISBN-based duplicate detection
 
 ---
 
-## ▶️ Running Exercises
+## 8. 🚀 Running Exercises
 
-### Method 1: Command Line
+### Quick Start
 
 ```bash
-# Windows
+# Navigate to project directory
 cd Python-Practical-Works
+
+# Run individual exercises
 python Exercise1.py
+python Exercise2.py
+python Exercise3.py
+python Exercise4.py
+python "Exercise .py"
 
-# Mac/Linux
-python3 Exercise1.py
-```
-
-### Method 2: Run All
-
-```bash
+# Run all exercises
 python Exercise1.py && python Exercise2.py && python Exercise3.py && python Exercise4.py && python "Exercise .py"
 ```
 
-### Method 3: VS Code
+### VS Code Setup
 
-1. Open VS Code
-2. File → Open Folder → Select project
-3. Right-click any `.py` file
-4. Run "Run Python File in Terminal"
+1. **Open Project**: `File > Open Folder > Python-Practical-Works`
+2. **Run File**: Right-click > `Run Python File in Terminal`
+3. **Debug**: F5 for debugging mode
 
 ---
 
-## 📤 Expected Outputs
+## 9. 📤 Expected Outputs
 
-### Exercise 1 Output:
+### Exercise 1 Output
 ```
 ==================================================
 EXERCISE 1 - Bank Account
@@ -460,153 +729,120 @@ Account created: Account of Yasmine | Balance: 5000 MAD
 Deposit of 2000 MAD completed
 Withdrawal of 1000 MAD completed
 Balance via get_balance(): 6000 MAD
+Display via print(): Account of Yasmine | Balance: 6000 MAD
 ```
 
-### Exercise 2 Output:
+### Exercise 2 Output
 ```
-==================================================
 EXERCISE 2 - Vector2D
-==================================================
 v1 = (3, 4)
 v2 = (1, 2)
 v1 + v2 = (4, 6)
-v1 - v2 = (2, 2)
 v1 * 3 = (9, 12)
 Norm of v1 = 5.00
 ```
 
-### Exercise 3 Output:
+### Exercise 3 Output
 ```
-==================================================
 EXERCISE 3 - School System
-==================================================
 Last Name: Alaoui, First Name: Yasmine, Age: 20 years
 Yasmine studies in Computer Science
 Student: Yasmine Alaoui, 20 years old, Major: Computer Science
 ```
 
-### Exercise 4 Output:
+### Exercise 4 Output
 ```
-==================================================
 EXERCISE 4 - Connected Vehicles
-==================================================
 Vehicle Tesla, max speed: 250 km/h | Connected, OS: Tesla OS | 
 Electric, range: 500 km | Electric & Connected
-
-MRO: ConnectedElectricCar → ElectricVehicle → ConnectedVehicle → Vehicle → object
 ```
 
 ---
 
-## 🔧 Key Concepts Reference
+## 10. 🔑 Key Concepts Reference
 
-### Python Naming Conventions:
+### Python Naming Conventions
 
-| Convention | Example | Meaning |
-|------------|---------|---------|
-| `variable` | `self.name` | Public |
-| `_variable` | `self._bank` | Protected |
-| `__variable` | `self.__balance` | Private |
+| Convention | Example | Use Case |
+|------------|---------|----------|
+| `variable` | `name` | Public attribute |
+| `_variable` | `_bank` | Protected (internal) |
+| `__variable` | `__balance` | Private (name mangled) |
+| `__variable__` | `__init__` | System-defined |
 
-### Important Dunder Methods:
+### Important Dunder Methods
 
-```python
-# Creation & Destruction
-__init__()      # Object creation
-__del__()       # Object deletion
-
-# String Representation
-__str__()       # print(obj)
-__repr__()      # repr(obj)
-
-# Arithmetic Operators
-__add__()       # +
-__sub__()       # -
-__mul__()       # *
-
-# Comparison
-__eq__()        # ==
-__lt__()        # <
-__gt__()        # >
-
-# Collection
-__len__()       # len(obj)
-__contains__()  # item in obj
-```
-
-### Inheritance Functions:
-
-```python
-super()              # Call parent method
-isinstance(obj, C)   # Check type
-issubclass(C1, C2)   # Check inheritance
-ClassName.__mro__    # View method resolution
-```
+| Category | Methods |
+|----------|---------|
+| **Creation** | `__init__`, `__new__`, `__del__` |
+| **String** | `__str__`, `__repr__`, `__format__` |
+| **Arithmetic** | `__add__`, `__sub__`, `__mul__`, `__div__` |
+| **Comparison** | `__eq__`, `__lt__`, `__gt__`, `__le__` |
+| **Container** | `__len__`, `__getitem__`, `__contains__` |
 
 ---
 
-## 🎥 Video Resources
+## 11. 🎥 Video Resources
 
-| Topic | Recommended Video |
-|-------|------------------|
-| Python OOP Basics | [Corey Schafer - OOP](https://www.youtube.com/watch?v=apACNr7DC_s) |
-| Classes & Objects | [Python Tutorial](https://www.youtube.com/watch?v=8ok8hJ7D2sE) |
-| Inheritance | [Programming with Mosh](https://www.youtube.com/watch?v=RSl87lqOXDE) |
-| Multiple Inheritance | [Tech With Tim](https://www.youtube.com/watch?v=0sD3M7EuzE4) |
-| Dunder Methods | [ArjanCodes](https://www.youtube.com/watch?v=z5W3Kqt3y6E) |
+### Recommended Tutorials
+
+| Topic | Link | Duration |
+|-------|------|----------|
+| Python OOP Basics | [Corey Schafer](https://www.youtube.com/watch?v=apACNr7DC_s) | 45 min |
+| Classes & Objects | [Programming with Mosh](https://www.youtube.com/watch?v=8ok8hJ7D2sE) | 20 min |
+| Inheritance | [Tech With Tim](https://www.youtube.com/watch?v=RSl87lqOXDE) | 25 min |
+| Multiple Inheritance | [ArjanCodes](https://www.youtube.com/watch?v=0sD3M7EuzE4) | 30 min |
+| Dunder Methods | [Python Engineer](https://www.youtube.com/watch?v=z5W3Kqt3y6E) | 35 min |
 
 ---
 
-## ❓ FAQ
+## 12. ❓ FAQ
 
-### Q: What is `self`?
-**A:** `self` refers to the current object instance.
+### Q: What is the difference between `_` and `__` in Python?
 
-### Q: Why use `__` before a variable?
-**A:** It makes the variable private (name mangling).
+**A**: Single underscore (`_`) is a convention for protected attributes. Double underscore (`__`) triggers name mangling, making the attribute harder to access from outside.
+
+### Q: When should I use inheritance?
+
+**A**: Use inheritance when you have an "is-a" relationship. Example: `Student` IS A `Person`.
 
 ### Q: What is MRO?
-**A:** Method Resolution Order - the order Python looks for methods in multiple inheritance.
 
-### Q: When to use `super()`?
-**A:** Always in child classes to properly initialize parent classes.
+**A**: Method Resolution Order defines the order in which Python looks for methods in multiple inheritance.
 
-### Q: What are dunder methods?
-**A:** Methods with double underscores (e.g., `__init__`) - also called "magic methods".
+### Q: Can I overload operators in Python?
 
----
-
-## 📖 French-English Glossary
-
-| Français | English |
-|----------|---------|
-| Classe | Class |
-| Objet | Object |
-| Héritage | Inheritance |
-| Encapsulation | Encapsulation |
-| Polymorphisme | Polymorphism |
-| Méthode | Method |
-| Attribut | Attribute |
-| Constructeur | Constructor |
-| Héritage multiple | Multiple inheritance |
+**A**: Yes! Use dunder methods like `__add__`, `__mul__`, etc.
 
 ---
 
-## 👏 Thank You!
+## 13. 📚 Additional Resources
 
-```
-░█▀▀░█▀█░█▀▄░█▀▀░█▀▄░█▀█░█▀▄░█▀█░█▀▄░█▀▀
-░█▀▀░█▀█░█▀▄░█▀▀░█▀▄░█▀█░█▀▄░█▀█░█▀▄░█▀▀
-░▀▀▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀▀▀
-      HAPPY CODING! 🎉
-░█▀▀░█▀█░█▀▄░█▀▀░█▀▄░█▀█░█▀▄░█▀█░█▀▄░█▀▀
-░█▀▀░█▀█░█▀▄░█▀▀░█▀▄░█▀█░█▀▄░█▀█░█▀▄░█▀▀
-░▀▀▀░▀░▀░▀▀▀░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀▀▀
-```
+### Recommended Books
+
+| Book | Author |
+|------|--------|
+| Fluent Python | Luciano Ramalho |
+| Python Crash Course | Eric Matthes |
+| Clean Code | Robert Martin |
+
+### Online Documentation
+
+- [Python Official Docs](https://docs.python.org/3/)
+- [Real Python](https://realpython.com/)
+- [W3Schools Python OOP](https://www.w3schools.com/python/python_classes.asp)
+
+---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Made%20with-❤️-red"/>
-  <img src="https://img.shields.io/badge/Python-OOP-blue"/>
-  <br><br>
-  <em>Created for EMSI Python Course | Bonne chance! 🍀</em>
+  <img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge" alt="Made with Python">
+  <img src="https://img.shields.io/badge/Open-Source-red?style=for-the-badge" alt="Open Source">
+  <img src="https://img.shields.io/badge/Ready-for-Production-green?style=for-the-badge" alt="Production Ready">
+</p>
+
+---
+
+<p align="center">
+  <strong>Happy Coding! 🚀</strong><br>
+  <em>Version 2.0 | Last Updated: 2026</em>
 </p>
