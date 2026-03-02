@@ -62,30 +62,81 @@ This comprehensive course provides a **complete mastery of Object-Oriented Progr
 
 ### Learning Outcomes
 
+```mermaid
+flowchart LR
+    A[📖 Introduction] --> B[🎯 Objectives]
+    B --> C[📦 Prerequisites]
+    C --> D[🏗️ Structure]
+    D --> E[💡 Methodology]
+    E --> F[🧠 OOP Fundamentals]
+    F --> G[📝 Exercises]
+    G --> H[🚀 Run Exercises]
+    H --> I[📤 Expected Outputs]
+    I --> J[🔑 Key Concepts]
+    J --> K[🎥 Video Resources]
+    K --> L[❓ FAQ]
+    L --> M[📚 Additional Resources]
+    
+    style A fill:#e1f5fe
+    style B fill:#e1f5fe
+    style C fill:#e1f5fe
+    style D fill:#e1f5fe
+    style E fill:#e1f5fe
+    style F fill:#fff3e0
+    style G fill:#e8f5e9
+    style H fill:#f3e5f5
+    style I fill:#fce4ec
+    style J fill:#fff9c4
+    style K fill:#e0f7fa
+    style L fill:#f1f8e9
+    style M fill:#efebe9
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           COURSE OBJECTIVES                                 │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ✅ Master class design and object creation                                │
-│  ✅ Understand encapsulation and data protection                            │
-│  ✅ Implement inheritance and code reuse                                    │
-│  ✅ Apply polymorphism through operator overloading                         │
-│  ✅ Handle complex inheritance hierarchies                                  │
-│  ✅ Build complete OOP-based projects                                      │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+
+```mermaid
+flowchart TD
+    subgraph Objectives
+    O1[✅ Master class design] --> O2[✅ Understand encapsulation]
+    O2 --> O3[✅ Implement inheritance]
+    O3 --> O4[✅ Apply polymorphism]
+    O4 --> O5[✅ Handle complex hierarchies]
+    O5 --> O6[✅ Build complete projects]
+    end
+    
+    style O1 fill:#c8e6c9
+    style O2 fill:#c8e6c9
+    style O3 fill:#c8e6c9
+    style O4 fill:#c8e6c9
+    style O5 fill:#c8e6c9
+    style O6 fill:#c8e6c9
 ```
 
 ### Skills You Will Gain
 
-| Skill | Description | Exercise |
-|-------|-------------|----------|
-| **Encapsulation** | Data protection and access control | Exercise 1 |
-| **Operator Overloading** | Custom behavior for operators | Exercise 2 |
-| **Single Inheritance** | Parent-child class relationships | Exercise 3 |
-| **Multiple Inheritance** | Complex class hierarchies | Exercise 4 |
-| **Project Architecture** | Full system design | Final Project |
+```mermaid
+mindmap
+  root((Skills))
+    Encapsulation
+      Data protection
+      Access control
+      Private attributes
+      Exercise 1
+    Operator Overloading
+      Custom operators
+      Dunder methods
+      Exercise 2
+    Single Inheritance
+      Parent-child
+      super() method
+      Exercise 3
+    Multiple Inheritance
+      MRO
+      **kwargs
+      Exercise 4
+    Project Architecture
+      Full design
+      Complete system
+      Final Project
+```
 
 ---
 
@@ -93,12 +144,23 @@ This comprehensive course provides a **complete mastery of Object-Oriented Progr
 
 ### System Requirements
 
-| Requirement | Minimum | Recommended |
-|-------------|---------|-------------|
-| **Python** | 3.8 | 3.11+ |
-| **RAM** | 4 GB | 8 GB |
-| **Disk** | 1 GB | 5 GB |
-| **OS** | Windows/Mac/Linux | Windows 11 / macOS / Ubuntu 22.04 |
+```mermaid
+mindmap
+  root((Requirements))
+    Python
+      Minimum 3.8
+      Recommended 3.11+
+    RAM
+      Minimum 4 GB
+      Recommended 8 GB
+    Disk
+      Minimum 1 GB
+      Recommended 5 GB
+    OS
+      Windows
+      macOS
+      Linux
+```
 
 ### Installation Steps
 
@@ -189,47 +251,31 @@ Python-Practical-Works/
 
 ### Recommended Learning Path
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        6-STEP LEARNING METHODOLOGY                          │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ┌─────────────┐                                                            │
-│  │   STEP 1   │  📖 READ THE CONCEPT                                       │
-│  │  (15 min)  │  Understand theory before coding                           │
-│  └──────┬──────┘                                                            │
-│         │                                                                    │
-│         ▼                                                                    │
-│  ┌─────────────┐                                                            │
-│  │   STEP 2   │  👀 ANALYZE THE CODE                                       │
-│  │  (10 min)  │  Study provided examples                                   │
-│  └──────┬──────┘                                                            │
-│         │                                                                    │
-│         ▼                                                                    │
-│  ┌─────────────┐                                                            │
-│  │   STEP 3   │  ⌨️  RUN THE EXERCISE                                      │
-│  │  (5 min)   │  Execute and observe output                               │
-│  └──────┬──────┘                                                            │
-│         │                                                                    │
-│         ▼                                                                    │
-│  ┌─────────────┐                                                            │
-│  │   STEP 4   │  🔧 EXPERIMENT                                              │
-│  │  (20 min)  │  Modify and test variations                                │
-│  └──────┬──────┘                                                            │
-│         │                                                                    │
-│         ▼                                                                    │
-│  ┌─────────────┐                                                            │
-│  │   STEP 5   │  💻 SOLVE INDEPENDENTLY                                    │
-│  │  (30 min)  │  Try without looking at solution                           │
-│  └──────┬──────┘                                                            │
-│         │                                                                    │
-│         ▼                                                                    │
-│  ┌─────────────┐                                                            │
-│  │   STEP 6   │  📝 REVIEW AND REFLECT                                     │
-│  │  (10 min)  │  Compare with solution, note differences                   │
-│  └─────────────┘                                                            │
-│                                                                             │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    subgraph "6-STEP METHODOLOGY"
+    S1[📖 STEP 1: READ] --> S2[👀 STEP 2: ANALYZE]
+    S2 --> S3[⌨️ STEP 3: RUN]
+    S3 --> S4[🔧 STEP 4: EXPERIMENT]
+    S4 --> S5[💻 STEP 5: SOLVE]
+    S5 --> S6[📝 STEP 6: REVIEW]
+    
+    S1 -.- "15 min":::time
+    S2 -.- "10 min":::time
+    S3 -.- "5 min":::time
+    S4 -.- "20 min":::time
+    S5 -.- "30 min":::time
+    S6 -.- "10 min":::time
+    
+    classDef time fill:#fff,stroke:#666,stroke-width:1px,font-size:12px
+    end
+    
+    style S1 fill:#e3f2fd
+    style S2 fill:#e3f2fd
+    style S3 fill:#e8f5e9
+    style S4 fill:#fff3e0
+    style S5 fill:#fce4ec
+    style S6 fill:#f3e5f5
 ```
 
 ### Best Practices
@@ -273,24 +319,31 @@ if age > MIN_AGE:
 
 # ❌ Avoid: Complex one-liners
 result = [x**2 for x in range(10) if x % 2 == 0]  # Hard to read
-
-# Better: Break into multiple lines
-squares = []
-for x in range(10):
-    if x % 2 == 0:
-        squares.append(x**2)
 ```
 
 ### Time Management
 
-| Exercise | Theory | Practice | Total |
-|----------|--------|----------|-------|
-| Exercise 1 | 15 min | 30 min | 45 min |
-| Exercise 2 | 20 min | 40 min | 60 min |
-| Exercise 3 | 25 min | 45 min | 70 min |
-| Exercise 4 | 30 min | 50 min | 80 min |
-| Final Project | 45 min | 90 min | 135 min |
-| **Total** | **135 min** | **255 min** | **6.5 hours** |
+```mermaid
+gantt
+    title Course Time Allocation
+    dateFormat X
+    axisFormat %s min
+    
+    Exercise 1 Theory      :a1, 0, 15
+    Exercise 1 Practice   :a2, 15, 45
+    
+    Exercise 2 Theory      :b1, 45, 65
+    Exercise 2 Practice   :b2, 65, 105
+    
+    Exercise 3 Theory      :c1, 105, 130
+    Exercise 3 Practice   :c2, 130, 175
+    
+    Exercise 4 Theory      :d1, 175, 205
+    Exercise 4 Practice   :d2, 205, 255
+    
+    Final Project Theory   :e1, 255, 300
+    Final Project Practice :e2, 300, 390
+```
 
 ---
 
@@ -298,9 +351,31 @@ for x in range(10):
 
 ### The Four Pillars of OOP
 
-<p align="center">
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iI2YwZjBmMCIvPjx0ZXh0IHg9IjUwJSIgeT0iMTAlIiBmb250LXNpemU9IjQwIiBmaWxsPSIjMDAwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB3aWR0aD0iMTAwJSI+QUJDREVGPC90ZXh0Pjwvc3ZnPg==" alt="OOP Concepts" width="800"/>
-</p>
+```mermaid
+flowchart TD
+    OOP[🤖 OOP] --> ENC[🔒 Encapsulation]
+    OOP --> INH[👨‍👩‍👧 Inheritance]
+    OOP --> POLY[🔄 Polymorphism]
+    OOP --> ABS[🎭 Abstraction]
+    
+    ENC --> ENC1[Data Protection]
+    ENC --> ENC2[Bundle Data+Methods]
+    
+    INH --> INH1[Code Reuse]
+    INH --> INH2[is-a Relationship]
+    
+    POLY --> POLY1[Same Interface]
+    POLY --> POLY2[Different Behavior]
+    
+    ABS --> ABS1[Hide Complexity]
+    ABS --> ABS2[Simple Interface]
+    
+    style OOP fill:#673ab7,color:#fff
+    style ENC fill:#e91e63,color:#fff
+    style INH fill:#2196f3,color:#fff
+    style POLY fill:#4caf50,color:#fff
+    style ABS fill:#ff9800,color:#fff
+```
 
 ### 6.1 Encapsulation
 
@@ -325,19 +400,6 @@ class BankAccount:
         if amount > 0:
             self.__balance += amount
             print(f"✅ Deposited: ${amount}")
-    
-    def withdraw(self, amount: float) -> bool:
-        """Withdraw money if sufficient funds exist."""
-        if amount <= self.__balance:
-            self.__balance -= amount
-            print(f"✅ Withdrawn: ${amount}")
-            return True
-        print(f"❌ Insufficient funds")
-        return False
-    
-    def get_balance(self) -> float:
-        """Getter method to access private data."""
-        return self.__balance
 ```
 
 ### 6.2 Inheritance
@@ -350,18 +412,12 @@ class Person:
     def __init__(self, name: str, age: int):
         self.name = name
         self.age = age
-    
-    def introduce(self) -> str:
-        return f"I am {self.name}"
 
 # Derived Class (Child)
 class Student(Person):
     def __init__(self, name: str, age: int, major: str):
         super().__init__(name, age)  # Call parent's __init__
         self.major = major
-    
-    def study(self) -> str:
-        return f"{self.name} studies {self.major}"
 ```
 
 ### 6.3 Polymorphism
@@ -377,30 +433,8 @@ class Dog:
     def speak(self):
         return "Woof!"
 
-# Same method, different behavior
 for animal in [Cat(), Dog()]:
-    print(animal.speak())  # Different outputs!
-```
-
-### 6.4 Abstraction
-
-> **Definition**: Hiding complex implementation details
-
-```python
-from abc import ABC, abstractmethod
-
-class Shape(ABC):
-    @abstractmethod
-    def area(self):
-        """Subclasses must implement this."""
-        pass
-
-class Circle(Shape):
-    def __init__(self, radius):
-        self.radius = radius
-    
-    def area(self):
-        return 3.14 * self.radius ** 2
+    print(animal.speak())
 ```
 
 ---
@@ -413,12 +447,17 @@ class Circle(Shape):
 
 #### Learning Objectives
 
-| Objective | Description |
-|-----------|-------------|
-| Create a class with constructor | Use `__init__` to initialize objects |
-| Implement data protection | Apply encapsulation with private attributes |
-| Build getter methods | Return private data safely |
-| Handle errors | Validate input in methods |
+```mermaid
+graph TD
+    Obj1[Create class with __init__] --> Obj2[Implement data protection]
+    Obj2 --> Obj3[Build getter methods]
+    Obj3 --> Obj4[Handle errors]
+    
+    style Obj1 fill:#c8e6c9
+    style Obj2 fill:#c8e6c9
+    style Obj3 fill:#c8e6c9
+    style Obj4 fill:#c8e6c9
+```
 
 #### Code Analysis
 
@@ -434,47 +473,23 @@ class BankAccount:
     """
     
     def __init__(self, holder: str, initial_balance: float):
-        """Initialize account with holder name and starting balance."""
         self.holder = holder
         self._bank = "Attijariwafa Bank"
         self.__balance = initial_balance
     
     def deposit(self, amount: float) -> None:
-        """
-        Deposit money into the account.
-        
-        Args:
-            amount: Positive amount to deposit
-            
-        Returns:
-            None
-        """
         if amount > 0:
             self.__balance += amount
-            print(f"✅ Deposit successful: ${amount}")
-        else:
-            print("❌ Invalid amount")
+            print(f"✅ Deposited: ${amount}")
     
     def withdraw(self, amount: float) -> bool:
-        """Withdraw money if sufficient balance exists."""
-        if amount <= 0:
-            print("❌ Amount must be positive")
-            return False
-        elif amount <= self.__balance:
-            self.__balance -= amount
-            print(f"✅ Withdrawal successful: ${amount}")
+        ifbalance:
+            self amount <= self.__.__balance -= amount
             return True
-        else:
-            print(f"❌ Insufficient funds")
-            return False
+        return False
     
     def get_balance(self) -> float:
-        """Return current balance."""
         return self.__balance
-    
-    def __str__(self) -> str:
-        """String representation of account."""
-        return f"Account: {self.holder} | Balance: ${self.__balance}"
 ```
 
 #### UML Diagram
@@ -501,73 +516,30 @@ classDiagram
 
 #### Learning Objectives
 
-| Objective | Description |
-|-----------|-------------|
-| Operator overloading | Customize operator behavior |
-| Dunder methods | Implement special Python methods |
-| Mathematical operations | Vector arithmetic |
-
-#### Code Analysis
-
-```python
-import math
-
-class Vector2D:
-    """Represents a 2-dimensional vector."""
+```mermaid
+graph TD
+    O1[Operator Overloading] --> O2[Dunder Methods]
+    O2 --> O3[Math Operations]
     
-    def __init__(self, x: float = 0, y: float = 0):
-        self.x = x
-        self.y = y
-    
-    # String representations
-    def __str__(self):
-        """Human-readable string."""
-        return f"({self.x}, {self.y})"
-    
-    def __repr__(self):
-        """Developer representation."""
-        return f"Vector2D({self.x}, {self.y})"
-    
-    # Arithmetic operators
-    def __add__(self, other: 'Vector2D') -> 'Vector2D':
-        """Vector addition: v1 + v2"""
-        return Vector2D(self.x + other.x, self.y + other.y)
-    
-    def __sub__(self, other: 'Vector2D') -> 'Vector2D':
-        """Vector subtraction: v1 - v2"""
-        return Vector2D(self.x - other.x, self.y - other.y)
-    
-    def __mul__(self, scalar: float) -> 'Vector2D':
-        """Scalar multiplication: v * 3"""
-        return Vector2D(self.x * scalar, self.y * scalar)
-    
-    def __rmul__(self, scalar: float) -> 'Vector2D':
-        """Right multiplication: 3 * v"""
-        return self.__mul__(scalar)
-    
-    def __eq__(self, other: 'Vector2D') -> bool:
-        """Equality check: v1 == v2"""
-        return self.x == other.x and self.y == other.y
-    
-    def norm(self) -> float:
-        """Calculate vector magnitude."""
-        return math.sqrt(self.x**2 + self.y**2)
-    
-    def __len__(self) -> int:
-        """Return norm as integer."""
-        return round(self.norm())
+    style O1 fill:#bbdefb
+    style O2 fill:#bbdefb
+    style O3 fill:#bbdefb
 ```
 
 #### Operators Reference
 
-| Method | Operator | Usage | Result |
-|--------|----------|-------|--------|
-| `__add__` | `+` | `v1 + v2` | New Vector2D |
-| `__sub__` | `-` | `v1 - v2` | New Vector2D |
-| `__mul__` | `*` | `v1 * 3` | New Vector2D |
-| `__rmul__` | `*` | `3 * v1` | New Vector2D |
-| `__eq__` | `==` | `v1 == v2` | Boolean |
-| `__len__` | `len()` | `len(v1)` | Integer |
+```mermaid
+graph LR
+    A[Method] --> B[Operator]
+    B --> C[Usage]
+    C --> D[Result]
+    
+    M1[__add__] --> O1[+] --> U1[v1 + v2] --> R1[New Vector2D]
+    M2[__sub__] --> O2[-] --> U2[v1 - v2] --> R2[New Vector2D]
+    M3[__mul__] --> O3[*] --> U3[v1 * 3] --> R3[New Vector2D]
+    M4[__eq__] --> O4[==] --> U4[v1 == v2] --> R4[Boolean]
+    M5[__len__] --> O5[len()] --> U5[len(v1)] --> R5[Integer]
+```
 
 ---
 
@@ -577,11 +549,15 @@ class Vector2D:
 
 #### Learning Objectives
 
-| Objective | Description |
-|-----------|-------------|
-| Single inheritance | Parent-child class relationships |
-| Method overriding | Customize inherited behavior |
-| Type checking | Use `isinstance()` |
+```mermaid
+graph TD
+    I1[Single Inheritance] --> I2[Method Override]
+    I2 --> I3[Type Checking]
+    
+    style I1 fill:#ffe0b2
+    style I2 fill:#ffe0b2
+    style I3 fill:#ffe0b2
+```
 
 #### Class Hierarchy
 
@@ -622,11 +598,15 @@ classDiagram
 
 #### Learning Objectives
 
-| Objective | Description |
-|-----------|-------------|
-| Multiple inheritance | Inherit from multiple parents |
-| MRO (Method Resolution Order) | Understand method lookup |
-| **kwargs | Flexible parameter passing |
+```mermaid
+graph TD
+    M1[Multiple Inheritance] --> M2[MRO Understanding]
+    M2 --> M3[kwargs Usage]
+    
+    style M1 fill:#d1c4e9
+    style M2 fill:#d1c4e9
+    style M3 fill:#d1c4e9
+```
 
 #### Multiple Inheritance Diagram
 
@@ -664,16 +644,18 @@ classDiagram
 
 #### MRO Visualization
 
-```python
-# Method Resolution Order
-ConnectedElectricCar.__mro__
-
-# Output:
-# (ConnectedElectricCar,
-#  ElectricVehicle,
-#  ConnectedVehicle,
-#  Vehicle,
-#  object)
+```mermaid
+flowchart LR
+    A[ConnectedElectricCar] --> B[ElectricVehicle]
+    B --> C[ConnectedVehicle]
+    C --> D[Vehicle]
+    D --> E[object]
+    
+    style A fill:#ffcdd2
+    style B fill:#ffcdd2
+    style C fill:#ffcdd2
+    style D fill:#ffcdd2
+    style E fill:#ffcdd2
 ```
 
 ---
@@ -684,10 +666,20 @@ ConnectedElectricCar.__mro__
 
 #### Features
 
-- Document management (Books, Articles)
-- Library catalog operations
-- Search functionality
-- ISBN-based duplicate detection
+```mermaid
+mindmap
+  root((Library System))
+    Document Management
+      Books
+      Articles
+    Catalog Operations
+      Add
+      Search
+      Display
+    Advanced Features
+      ISBN Detection
+      Type Checking
+```
 
 ---
 
@@ -705,22 +697,14 @@ python Exercise2.py
 python Exercise3.py
 python Exercise4.py
 python "Exercise .py"
-
-# Run all exercises
-python Exercise1.py && python Exercise2.py && python Exercise3.py && python Exercise4.py && python "Exercise .py"
 ```
-
-### VS Code Setup
-
-1. **Open Project**: `File > Open Folder > Python-Practical-Works`
-2. **Run File**: Right-click > `Run Python File in Terminal`
-3. **Debug**: F5 for debugging mode
 
 ---
 
 ## 9. 📤 Expected Outputs
 
 ### Exercise 1 Output
+
 ```
 ==================================================
 EXERCISE 1 - Bank Account
@@ -733,6 +717,7 @@ Display via print(): Account of Yasmine | Balance: 6000 MAD
 ```
 
 ### Exercise 2 Output
+
 ```
 EXERCISE 2 - Vector2D
 v1 = (3, 4)
@@ -743,6 +728,7 @@ Norm of v1 = 5.00
 ```
 
 ### Exercise 3 Output
+
 ```
 EXERCISE 3 - School System
 Last Name: Alaoui, First Name: Yasmine, Age: 20 years
@@ -751,6 +737,7 @@ Student: Yasmine Alaoui, 20 years old, Major: Computer Science
 ```
 
 ### Exercise 4 Output
+
 ```
 EXERCISE 4 - Connected Vehicles
 Vehicle Tesla, max speed: 250 km/h | Connected, OS: Tesla OS | 
@@ -763,28 +750,66 @@ Electric, range: 500 km | Electric & Connected
 
 ### Python Naming Conventions
 
-| Convention | Example | Use Case |
-|------------|---------|----------|
-| `variable` | `name` | Public attribute |
-| `_variable` | `_bank` | Protected (internal) |
-| `__variable` | `__balance` | Private (name mangled) |
-| `__variable__` | `__init__` | System-defined |
+```mermaid
+graph TD
+    N1[variable] --> P1[Public: name]
+    N2[_variable] --> P2[Protected: _bank]
+    N3[__variable] --> P3[Private: __balance]
+    N4[__variable__] --> P4[System: __init__]
+    
+    style N1 fill:#e3f2fd
+    style N2 fill:#fff3e0
+    style N3 fill:#ffebee
+    style N4 fill:#f3e5f5
+```
 
 ### Important Dunder Methods
 
-| Category | Methods |
-|----------|---------|
-| **Creation** | `__init__`, `__new__`, `__del__` |
-| **String** | `__str__`, `__repr__`, `__format__` |
-| **Arithmetic** | `__add__`, `__sub__`, `__mul__`, `__div__` |
-| **Comparison** | `__eq__`, `__lt__`, `__gt__`, `__le__` |
-| **Container** | `__len__`, `__getitem__`, `__contains__` |
+```mermaid
+mindmap
+  root((Dunder Methods))
+    Creation
+      __init__
+      __new__
+      __del__
+    String
+      __str__
+      __repr__
+      __format__
+    Arithmetic
+      __add__
+      __sub__
+      __mul__
+      __div__
+    Comparison
+      __eq__
+      __lt__
+      __gt__
+      __le__
+    Container
+      __len__
+      __getitem__
+      __contains__
+```
 
 ---
 
 ## 11. 🎥 Video Resources
 
-### Recommended Tutorials
+```mermaid
+graph TD
+    V1[Python OOP Basics] --> L1[Corey Schafer]
+    V2[Classes & Objects] --> L2[Programming with Mosh]
+    V3[Inheritance] --> L3[Tech With Tim]
+    V4[Multiple Inheritance] --> L4[ArjanCodes]
+    V5[Dunder Methods] --> L5[Python Engineer]
+    
+    style V1 fill:#e8f5e9
+    style V2 fill:#e8f5e9
+    style V3 fill:#e8f5e9
+    style V4 fill:#e8f5e9
+    style V5 fill:#e8f5e9
+```
 
 | Topic | Link | Duration |
 |-------|------|----------|
@@ -798,21 +823,18 @@ Electric, range: 500 km | Electric & Connected
 
 ## 12. ❓ FAQ
 
-### Q: What is the difference between `_` and `__` in Python?
-
-**A**: Single underscore (`_`) is a convention for protected attributes. Double underscore (`__`) triggers name mangling, making the attribute harder to access from outside.
-
-### Q: When should I use inheritance?
-
-**A**: Use inheritance when you have an "is-a" relationship. Example: `Student` IS A `Person`.
-
-### Q: What is MRO?
-
-**A**: Method Resolution Order defines the order in which Python looks for methods in multiple inheritance.
-
-### Q: Can I overload operators in Python?
-
-**A**: Yes! Use dunder methods like `__add__`, `__mul__`, etc.
+```mermaid
+flowchart TD
+    Q1{Q: Difference between _ and __?} --> A1[__: triggers name mangling]
+    Q2{Q: When to use inheritance?} --> A2[Use for "is-a" relationships]
+    Q3{Q: What is MRO?} --> A3[Method lookup order in multiple inheritance]
+    Q4{Q: Can I overload operators?} --> A4[Yes, using dunder methods]
+    
+    style Q1 fill:#fff9c4
+    style Q2 fill:#fff9c4
+    style Q3 fill:#fff9c4
+    style Q4 fill:#fff9c4
+```
 
 ---
 
@@ -820,17 +842,22 @@ Electric, range: 500 km | Electric & Connected
 
 ### Recommended Books
 
+```mermaid
+graph TD
+    B1[Fluent Python] --> A1[Luciano Ramalho]
+    B2[Python Crash Course] --> A2[Eric Matthes]
+    B3[Clean Code] --> A3[Robert Martin]
+    
+    style B1 fill:#e1f5fe
+    style B2 fill:#e1f5fe
+    style B3 fill:#e1f5fe
+```
+
 | Book | Author |
 |------|--------|
 | Fluent Python | Luciano Ramalho |
 | Python Crash Course | Eric Matthes |
 | Clean Code | Robert Martin |
-
-### Online Documentation
-
-- [Python Official Docs](https://docs.python.org/3/)
-- [Real Python](https://realpython.com/)
-- [W3Schools Python OOP](https://www.w3schools.com/python/python_classes.asp)
 
 ---
 
